@@ -1,4 +1,4 @@
-# Two Bucket
+# Ruby: Two Bucket
 
 Given two buckets of different size, write a program to demonstrate how to measure an exact number of liters.
 
@@ -30,6 +30,19 @@ To conclude, the only valid moves are:
 - filling one bucket and doing nothing to the other
 
 Written with <3 at [Fullstack Academy](http://www.fullstackacademy.com/) by [Lindsay](http://lindsaylevine.com).
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby two_bucket_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
 
 ## Source
 
@@ -39,3 +52,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
